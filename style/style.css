@@ -1,0 +1,160 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding-top: 150px;
+  background-color: rgb(80, 80, 80);
+  min-height: 100vh;
+}
+
+/* fonts  */
+@font-face {
+  font-family: "RozhaOne";
+  src: url(../fonts/RozhaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+/* Text and icons sections */
+.part1,
+.part2,
+.part3,
+.part4,
+.part5,
+.part6 {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.part1 img,
+.part2 img,
+.part3 img,
+.part4 img,
+.part5 img,
+.part6 img {
+  width: 100px;
+  height: auto;
+  margin-right: 25px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6 {
+  flex: 1;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 15px black;
+}
+
+/* Sticky image */
+.sticky {
+  position: fixed;
+  top: 9%;
+  left: 60%;
+  z-index: -1;
+}
+
+.sticky img {
+  width: 761px;
+  opacity: 0.8;
+}
+
+/* Hide icons on body */
+.heartshow,
+.brainshow,
+.lungsshow,
+.kidneys,
+.livershow,
+.pancreas {
+  position: absolute;
+  display: none;
+}
+
+.heartshow img,
+.brainshow img,
+.lungsshow img,
+.kidneys img,
+.livershow img,
+.pancreas img {
+  width: 100px;
+}
+
+/* Adjust positions */
+.heartshow {
+  top: 20%;
+  right: 45%;
+}
+.brainshow {
+  top: 2%;
+  right: 45%;
+}
+.lungsshow {
+  top: 22%;
+  right: 44%;
+}
+.kidneys {
+  top: 35%;
+  right: 44%;
+}
+.livershow {
+  top: 37%;
+  right: 48%;
+}
+.pancreas {
+  top: 40%;
+  right: 44%;
+}
+
+/* Article and Challenge  */
+
+.articleQuizz {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 60%;
+}
+
+#article {
+  width: 50%;
+  text-align: center;
+}
+
+#article p {
+  margin-top: 15px;
+}
+
+#article a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+#quizz {
+  position: relative;
+  width: 50%;
+}
+
+#handDown {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 50px;
+}
+
+#article a:hover {
+  text-decoration: underline;
+  font-size: 25px;
+}

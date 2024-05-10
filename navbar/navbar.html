@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/stylenav.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="../logo/logo2.png" alt="" />
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
+      <nav class="navbar">
+        <a href="../index.html" style="--i: 0">Home</a>
+        <div class="dropdown">
+          <a href="../pages/systems.html" style="--i: 1" class="drop-button"
+            >Systems</a
+          >
+          <div class="content">
+            <a href="../pages/nervous.html">Nervous system</a>
+            <a href="../pages/digestive.html">Digestive system</a>
+            <a href="">Circulatory system</a>
+            <a href="">Respiratory system</a>
+            <a href="">Excretory system</a>
+            <a href="">Muscular system</a>
+          </div>
+        </div>
+
+        <a href="../pages/pathology.html" style="--i: 2">Pathology</a>
+        <a href="../pages/publications.html" style="--i: 3">Publications</a>
+        <a href="../pages/curiosity.html" style="--i: 4">Curiosity</a>
+      </nav>
+    </header>
+  </body>
+</html>

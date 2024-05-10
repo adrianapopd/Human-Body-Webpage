@@ -1,0 +1,572 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(80, 80, 80);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.titlu {
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  font-family: "RozhaOne";
+  text-shadow: 1px 1px 15px black;
+}
+@media screen and (max-width: 600px) {
+  .titlu {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .titlu {
+    font-size: 19px;
+  }
+}
+
+/* reni */
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 19px;
+  }
+}
+
+.beat {
+  font-size: 5rem;
+  color: rgb(148, 16, 16);
+  text-shadow: white 3px 4px;
+  text-align: center !important;
+  margin-top: 150px;
+  margin-left: 590px;
+}
+@media screen and (max-width: 600px) {
+  .beat {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .beat {
+    font-size: 19px;
+  }
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  .container2 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container2 {
+    font-size: 19px;
+  }
+}
+
+.pic {
+  width: 150px;
+  transform: scale(1);
+  animation: pulse 3s infinite;
+}
+@media screen and (max-width: 600px) {
+  .pic {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pic {
+    font-size: 19px;
+  }
+}
+
+.container2:hover .pic {
+  animation: pulse 1.5s infinite;
+}
+@media screen and (max-width: 600px) {
+  .container2:hover .pic {
+    animation: pulse 1.5s infinite;
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.95);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+  margin-left: 700px;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    font-size: 19px;
+  }
+}
+
+.heartpic {
+  align-self: flex-start;
+  width: 200px;
+  height: 300px;
+}
+@media screen and (max-width: 600px) {
+  .heartpic {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .heartpic {
+    font-size: 19px;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .box {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .box {
+    font-size: 19px;
+  }
+}
+
+.box:hover {
+  animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+
+  14% {
+    transform: scale(1.3);
+  }
+
+  28% {
+    transform: scale(1);
+  }
+
+  42% {
+    transform: scale(1.3);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+}
+
+.h2 {
+  position: relative;
+  left: 20px;
+  bottom: 510px;
+  color: rgb(180, 17, 17);
+  font-size: 24px;
+}
+@media screen and (max-width: 600px) {
+  .h2 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .h2 {
+    font-size: 19px;
+  }
+}
+.p-container {
+  position: relative;
+  bottom: 500px;
+  margin-left: 20px;
+  text-align: left;
+  max-width: 500px;
+}
+@media screen and (max-width: 600px) {
+  .p-container {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p-container {
+    font-size: 19px;
+  }
+}
+
+.p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 600px) {
+  .p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p {
+    font-size: 19px;
+  }
+}
+
+.picture {
+  position: relative;
+  bottom: 500px;
+  margin-left: 150px;
+  text-align: left;
+  max-width: 500px;
+}
+@media screen and (max-width: 600px) {
+  .picture {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .picture {
+    font-size: 19px;
+  }
+}
+
+.pic2 {
+  max-width: 200px;
+}
+@media screen and (max-width: 600px) {
+  .pic2 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pic2 {
+    font-size: 19px;
+  }
+}
+
+.title-container2 {
+  position: absolute;
+  top: 900px;
+  right: 10%;
+  transform: translateX(-50%);
+  color: rgb(180, 17, 17);
+  font-size: 24px;
+}
+@media screen and (max-width: 600px) {
+  .title-container2 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .title-container2 {
+    font-size: 19px;
+  }
+}
+.p1-container {
+  position: relative;
+  top: -400px;
+  left: 400px;
+  width: 500px;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+  .p1-container {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p1-container {
+    font-size: 19px;
+  }
+}
+
+.p1 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 600px) {
+  p1 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  p1 {
+    font-size: 19px;
+  }
+}
+.title-container {
+  position: absolute;
+  top: 900px;
+  left: 10%;
+  transform: translateX(-50%);
+  color: rgb(180, 17, 17);
+  font-size: 24px;
+}
+@media screen and (max-width: 600px) {
+  .title-container {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .title-container {
+    font-size: 19px;
+  }
+}
+
+.p2-container {
+  position: relative;
+  bottom: 580px;
+  margin-left: 20px;
+  text-align: left;
+  max-width: 500px;
+}
+@media screen and (max-width: 600px) {
+  .p2-container {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p2-container {
+    font-size: 19px;
+  }
+}
+.p2 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 600px) {
+  .p2 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p2 {
+    font-size: 19px;
+  }
+}
+.title-container3 {
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 600px) {
+  .title-container3 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .title-container3 {
+    font-size: 19px;
+  }
+}
+.h5 {
+  color: rgb(180, 17, 17);
+  font-size: 24px;
+}
+@media screen and (max-width: 600px) {
+  .h5 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .h5 {
+    font-size: 19px;
+  }
+}
+.p3-container {
+  position: absolute;
+  top: 220%;
+  left: 50%;
+  right: 50px;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 600px) {
+  .p3-container {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p3-container {
+    font-size: 19px;
+  }
+}
+
+.p3 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 600px) {
+  .p3 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p3 {
+    font-size: 19px;
+  }
+}
+.title-container4 {
+  position: absolute;
+  top: 1500px;
+  left: 5%;
+  transform: translateX(-50%);
+  width: 100px;
+}
+@media screen and (max-width: 600px) {
+  .title-container4 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .title-container4 {
+    font-size: 19px;
+  }
+}
+
+.h6 {
+  font-size: 24px;
+  color: rgb(180, 17, 17);
+}
+@media screen and (max-width: 600px) {
+  .h6 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .h6 {
+    font-size: 19px;
+  }
+}
+.p4-container {
+  position: absolute;
+  max-width: 500px;
+  top: 250%;
+  left: 20px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p4-container {
+    font-size: 19px;
+  }
+}
+.p4 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 600px) {
+  .p4 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p4 {
+    font-size: 19px;
+  }
+}
+.title-container5 {
+  position: absolute;
+  top: -12%;
+  left: 150%;
+  right: 10px;
+  transform: translate(100px);
+  white-space: nowrap;
+}
+@media screen and (max-width: 600px) {
+  .title-container5 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .title-container5 {
+    font-size: 19px;
+  }
+}
+.last-title {
+  font-size: 24px;
+  color: rgb(180, 17, 17);
+}
+@media screen and (max-width: 600px) {
+  .last-title {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .last-title {
+    font-size: 19px;
+  }
+}
+
+.p5-container {
+  position: absolute;
+  left: 150%;
+  top: -2%;
+  width: 550px;
+  max-height: 600px;
+  transform: translate(-50% -50%);
+}
+@media screen and (max-width: 600px) {
+  .p5-container {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p5-container {
+    font-size: 19px;
+  }
+}
+.p5 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 600px) {
+  .p5 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .p5 {
+    font-size: 19px;
+  }
+}

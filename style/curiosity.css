@@ -1,0 +1,68 @@
+main {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.article-curiosity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  padding: 1rem;
+}
+
+.article-curiosity > * {
+  padding: 0.5rem;
+}
+
+.para-curiosity {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.ol-curiosity {
+  width: 50%;
+}
+.ol-curiosity li {
+  padding: 0.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.ol-curiosity img {
+  margin-left: 2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .ol-curiosity {
+    width: 80%;
+  }
+  .article-curiosity {
+    max-width: 80%;
+  }
+
+  .button-home {
+    position: relative;
+    margin: 0 27%;
+  }
+  .img1-curiosity {
+    margin-left: 27%;
+  }
+}
+
+@media (min-width: 768px) {
+  .article-curiosity .button-home {
+    margin-left: 30%;
+  }
+}
+
+@media (min-height: 1180px) {
+  .article-curiosity .button-home {
+    margin-left: 30%;
+  }
+  .img1-curiosity {
+    margin-left: 18%;
+  }
+}

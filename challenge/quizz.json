@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "question": "What organs are visible in the image?",
+      "answers": ["Liver", "Heart", "Large intestine", "Small intestine"],
+      "image": "images/challenge.png",
+      "correct": ["Liver", "Heart", "Large intestine", "Small intestine"]
+    },
+    {
+      "question": "What components of respiratory systems are visible in the image?",
+      "answers": ["Trachea", "Alveoli", "Larynx", "Bronchioles"],
+      "image": "images/challenge2.png",
+      "correct": ["Trachea", "Larynx", "Bronchioles"]
+    }
+  ]
+}
